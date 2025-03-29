@@ -9,13 +9,15 @@ from code.Const import WIN_WIDTH, COLOR_WHITE, MENU_OPTION, COLOR_YELLOW
 class Menu:
     def __init__(self, window):
         self.window = window
-        self.surf = pygame.image.load('./asset/MenuBg.png')
+        self.surf = pygame.image.load('./asset/MenuBg.png').convert_alpha()
         self.rect = self.surf.get_rect(left=0, top=0)
 
     def run(self, ):
+        global event
         menu_option = 0
         pygame.mixer_music.load('./asset/Menu.mp3')
         pygame.mixer_music.play(-1)
+
         while True:
             # Draw images
             self.window.blit(source=self.surf, dest=self.rect)
@@ -35,16 +37,6 @@ class Menu:
                 if event.type == pygame.QUIT:
                     pygame.quit()  # Close window
                     quit()  # End Pygame
-
-            if event.type == pygame.KEYDOWN:
-                if event.key == pygame.K_DOWN:
-                    menu_option = (menu_option + 1) % len(MENU_OPTION)
-
-                if event.key == pygame.K_UP:
-                    menu_option = (menu_option - 1) % len(MENU_OPTION)
-
-                if event.key == pygame.K_RETURN:
-                    return MENU_OPTION[menu_option]
 
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_DOWN:  # DOWN KEY

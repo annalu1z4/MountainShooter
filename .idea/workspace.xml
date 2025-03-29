@@ -4,37 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f18d2848-c4d5-4f08-9e25-ec3c8972961f" name="Changes" comment="Renamed project&#10;Creating branch feature_level">
-      <change afterPath="$PROJECT_DIR$/asset/Level1Bg0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level2Bg0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level3Bg0.png" afterDir="false" />
+    <list default="true" id="f18d2848-c4d5-4f08-9e25-ec3c8972961f" name="Changes" comment="Creating menu interactions &#10;Creating ABC class&#10;Creating Factory&#10;Level 1 Bg implementation: parallax">
+      <change afterPath="$PROJECT_DIR$/asset/Enemy2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/Level1Bg1.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Level1Bg1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/Level1Bg2.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Level1Bg2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/Level1Bg3.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Level1Bg3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/Level1Bg4.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Level1Bg4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/Level1Bg5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/Level2Bg1.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Level2Bg1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/Level2Bg2.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Level2Bg2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/Level2Bg3.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Level2Bg3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/Level2Bg4.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Level2Bg4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/Level2Bg5.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Level2Bg5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/Level2Bg6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/Level3Bg1.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Level3Bg1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/Level3Bg2.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Level3Bg2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/Level3Bg3.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Level3Bg3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/Level3Bg4.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Level3Bg4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/Level3Bg5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/Missile1.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Missile1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/Missile2.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Missile2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/SubmarineShot.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/SubmarineShot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Background.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Background.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/Blackmoor Tides.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/asset/BlackmoorTides.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/Missile1.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Enemy1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/Missile1Shot.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Enemy1Shot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/Missile2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/Missile2Shot.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Enemy2Shot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/Submarine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/SubmarineShot.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Enemy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Entity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/EntityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/EntityFactory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Level.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,25 +68,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Python.Entity.executor": "Run",
-    "Python.Game.executor": "Run",
-    "Python.Menu.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feature__level",
-    "last_opened_file_path": "C:/Users/annalu1z4/Documents/ADS/2025/A FASE I/Linguagem de Programação Aplicada/OceanShooter",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python.Entity.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Menu.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Run main.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.py.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature__level&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/annalu1z4/Documents/ADS/2025/A FASE I/Linguagem de Programação Aplicada/OceanShooter/main.py&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\annalu1z4\Documents\ADS\2025\A FASE I\Linguagem de Programação Aplicada\MountainShooter\asset" />
       <recent name="C:\Users\annalu1z4\Documents\ADS\2025\A FASE I\Linguagem de Programação Aplicada\MountainShooter\code" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main.py" type="PythonConfigurationType" factoryName="Python">
+      <module name="OceanShooter" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.13 (app)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -158,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743026177761</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Creating menu interactions &#10;Creating ABC class&#10;Creating Factory&#10;Level 1 Bg implementation: parallax">
+      <option name="closed" value="true" />
+      <created>1743107992773</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743107992773</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,6 +201,7 @@
     <MESSAGE value="Adding classes generated from StarUMLl" />
     <MESSAGE value="Creating main loop &#10;Connecting Menu and Game classes" />
     <MESSAGE value="Renamed project&#10;Creating branch feature_level" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renamed project&#10;Creating branch feature_level" />
+    <MESSAGE value="Creating menu interactions &#10;Creating ABC class&#10;Creating Factory&#10;Level 1 Bg implementation: parallax" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating menu interactions &#10;Creating ABC class&#10;Creating Factory&#10;Level 1 Bg implementation: parallax" />
   </component>
 </project>
