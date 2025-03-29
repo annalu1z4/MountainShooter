@@ -8,6 +8,7 @@ C_ORANGE = (255, 127, 80)
 
 # E
 EVENT_ENEMY = pygame.USEREVENT + 1
+EVENT_TIMEOUT = pygame.USEREVENT + 2
 
 ENTITY_DAMAGE = {
     'Level1Bg0': 0,
@@ -22,6 +23,7 @@ ENTITY_DAMAGE = {
     'Level2Bg2': 0,
     'Level2Bg3': 0,
     'Level2Bg4': 0,
+    'Level2Bg5': 0,
     'Player1': 1,
     'Player1Shot': 40,
     'Player2': 1,
@@ -45,6 +47,7 @@ ENTITY_HEALTH = {
     'Level2Bg2': 999,
     'Level2Bg3': 999,
     'Level2Bg4': 999,
+    'Level2Bg5': 999,
     'Player1': 200,
     'Player1Shot': 1,
     'Player2': 200,
@@ -68,6 +71,7 @@ ENTITY_SCORE = {
     'Level2Bg2': 0,
     'Level2Bg3': 0,
     'Level2Bg4': 0,
+    'Level2Bg5': 0,
     'Player1': 0,
     'Player1Shot': 0,
     'Player2': 0,
@@ -98,14 +102,15 @@ ENTITY_SPEED = {
     'Level2Bg2': 2,
     'Level2Bg3': 3,
     'Level2Bg4': 4,
+    'Level2Bg5': 5,
     'Player1': 3,
     'Player1Shot': 2,
     'Player2': 3,
     'Player2Shot': 2,
     'Enemy1': 1,
-    'Enemy1Shot': 5,
+    'Enemy1Shot': 3,
     'Enemy2': 1,
-    'Enemy2Shot': 2,
+    'Enemy2Shot': 3,
 }
 
 # M
@@ -130,6 +135,10 @@ PLAYER_KEY_SHOOT = {'Player1': pygame.K_SPACE,
 
 # S
 SPAWN_TIME = 2000
+
+# T
+TIMEOUT_STEP = 100 # 100ms
+TIMEOUT_LEVEL = 30000 # 30s
 
 # W
 WIN_WIDTH = 576

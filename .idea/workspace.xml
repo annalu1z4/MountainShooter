@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f18d2848-c4d5-4f08-9e25-ec3c8972961f" name="Changes" comment="Creating PlayerShot&#10;Creating EnemyShot" />
+    <list default="true" id="f18d2848-c4d5-4f08-9e25-ec3c8972961f" name="Changes" comment="Rebase with feature_level">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/EntityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/EntityFactory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Level.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +22,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="feature_level" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -186,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743280716374</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Rebase with feature_level">
+      <option name="closed" value="true" />
+      <created>1743285384218</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1743285384218</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,6 +229,7 @@
     <MESSAGE value="Creating Players and Enemies&#10;Moving players and Enemies" />
     <MESSAGE value="Creating Mediator Pattern&#10;Enemies destruction" />
     <MESSAGE value="Creating PlayerShot&#10;Creating EnemyShot" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating PlayerShot&#10;Creating EnemyShot" />
+    <MESSAGE value="Rebase with feature_level" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rebase with feature_level" />
   </component>
 </project>
