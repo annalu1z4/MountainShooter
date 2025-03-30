@@ -6,7 +6,7 @@ Ocean Shooter is a 2D arcade game developed with Pygame as part of the Applied P
 The game features three levels, each ending with a timeout event. It supports different game modes: solo, cooperative and competitive. The score is saved in an SQLite3 database.  
 
 ![Image](https://github.com/user-attachments/assets/e6d04b8b-3771-46f6-93bd-64b240208204)  
-_Screenshot Game Menu_
+_Screenshot Menu_
 
 ![Image](https://github.com/user-attachments/assets/76246a9b-c099-4d5d-a2e2-a8f478b4ad1a)  
 _Screenshot Level 1 Solo_
