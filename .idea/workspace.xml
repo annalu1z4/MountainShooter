@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f18d2848-c4d5-4f08-9e25-ec3c8972961f" name="Changes" comment="Rebase with feature_level">
+      <change afterPath="$PROJECT_DIR$/code/DBProxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/Score.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/ScoreBg.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/ScoreBg.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/EntityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/EntityFactory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +35,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -60,22 +63,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Python.Entity.executor": "Run",
-    "Python.Game.executor": "Run",
-    "Python.Menu.executor": "Run",
-    "Python.Run main.py.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.main.py.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/annalu1z4/Documents/ADS/2025/A FASE I/Linguagem de Programação Aplicada/OceanShooter/main.py",
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python.Entity.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Menu.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Run main.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.py.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/annalu1z4/Documents/ADS/2025/A FASE I/Linguagem de Programação Aplicada/OceanShooter/main.py&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\annalu1z4\Documents\ADS\2025\A FASE I\Linguagem de Programação Aplicada\MountainShooter\asset" />
