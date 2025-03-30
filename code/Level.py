@@ -1,6 +1,5 @@
 import random
 import sys
-from random import choice
 
 import pygame
 from pygame import Surface, Rect

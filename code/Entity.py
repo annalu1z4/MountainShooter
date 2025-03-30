@@ -17,5 +17,5 @@ class Entity(ABC):
         self.last_damage = 'None'
 
     @abstractmethod
-    def move(self, ):
+    def move(self):
         pass

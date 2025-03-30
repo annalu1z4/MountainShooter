@@ -1,3 +1,5 @@
+import sys
+
 import pygame
 
 from code.Const import WIN_WIDTH, WIN_HEIGHT, MENU_OPTION
@@ -32,7 +34,8 @@ class Game:
                 score.show()
 
             elif menu_return == MENU_OPTION[4]:
-                pygame.quit()  # Close window
-                quit()  # End Pygame
+                pygame.quit()
+                quit()
             else:
-                pass
+                pygame.quit()
+                sys.exit()
